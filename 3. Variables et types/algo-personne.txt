@@ -1,0 +1,16 @@
+Variables :
+	prenom : chaîne de caractères
+	anneeNaissance : entier
+	anneeActuelle : entier
+	age : entier
+Début
+	Afficher "Quel est votre prénom ?"
+	Saisir prenom
+	Afficher "Quelle est votre année de naissance ?"
+	Saisir anneeNaissance 
+	anneeActuelle <-- 2023 
+	age <-- anneeActuelle - anneeNaissance 
+	Afficher "Bonjour " + prenom
+	Afficher "Vous avez " + age + " ans"
+Fin
+
