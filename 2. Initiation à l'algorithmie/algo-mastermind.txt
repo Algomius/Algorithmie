@@ -1,0 +1,14 @@
+Variables
+	combinaison : entier
+	proposition : entier
+
+Début
+	combinaison <- 5 entiers aléatoires
+	Saisir proposition
+	Tant que proposition <> combinaison Faire
+		Afficher BP et MP
+		Saisir proposition
+	Ftant
+
+	Afficher "GAGNE"	
+Fin
