@@ -1,0 +1,12 @@
+Variables :
+	année : entier
+Début
+	Afficher "Quelle année voulez-vous tester ? "
+	Saisir année
+
+	si (année % 4 == 0 et année % 100 <> 0) ou (année % 400 == 0) alors
+		Afficher "L'année est bissextile"
+	sinon
+		Afficher "L'année n'est pas bissextile"
+	fsi
+Fin

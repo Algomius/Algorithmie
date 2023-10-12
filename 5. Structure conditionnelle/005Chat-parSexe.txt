@@ -1,0 +1,30 @@
+Variables :
+	couleur : chaîne de caractères
+	estCastré : booléen
+	sexe : chaîne de caractères
+Début
+	Afficher "Couleur ?"
+	Saisir couleur
+	Afficher "Sexe ?"
+	Saisir sexe
+	Afficher " Castré ?"
+	Saisie estCastré
+
+	Si couleur = "noir" alors
+		Afficher "Le chat convient"
+	Sinon
+		Si sexe = "femelle" alors
+			Si estCastré et couleur <> "blanc" alors
+				Afficher "Le chat convient
+			Sinon
+				Afficher "Le chat ne convient pas"
+			Fsi
+		Sinon
+			Si estCastré et (couleur = "blanc" ou couleur = "brun") alors
+				Afficher "Le chat convient"
+			Sinon
+				Afficher "Le chat ne convient pas"
+			castré, soit blanc ou brun;
+		Fsi
+	Fsi
+Fin

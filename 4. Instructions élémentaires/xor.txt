@@ -1,0 +1,13 @@
+Variables :
+	b1 : booléen
+	b2 : booléen
+	resultat : booléen
+Début
+	Afficher "Une valeur booléenne : "
+	Saisir b1
+	Afficher "Une autre : "
+	Saisir b2
+	resultat <- (b1 ou b2) et non (b1 et b2)
+	Afficher "Xor : " + resultat
+
+Fin

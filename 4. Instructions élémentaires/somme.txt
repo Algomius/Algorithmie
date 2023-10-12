@@ -1,0 +1,12 @@
+Variables :
+	n1 : réel
+	n2 : réel
+	somme : réel
+Début
+	Afficher "Donner un nombre : "
+	Saisir n1
+	Afficher "Donner un autre nombre : "
+	Saisir n2
+	somme <- n1 * n2
+	Afficher "La somme de " + n1 + " et de " + n2 + " est " + somme
+Fin

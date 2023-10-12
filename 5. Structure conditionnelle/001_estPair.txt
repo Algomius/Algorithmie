@@ -1,0 +1,11 @@
+Variables :
+	n : entier
+Début
+	Afficher "Quel nombre voulez-vous tester ? "
+	Saisir n
+	Si n % 2 = 0 alors
+		Afficher "Le nombre est pair"
+	Sinon
+		Afficher "Le nombre est impair"
+	Fsi
+Fin

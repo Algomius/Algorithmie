@@ -1,0 +1,15 @@
+Variables :
+	température : réel
+Début
+	Afficher "Quelle est la température du jour ? "
+	Saisir température
+	Si température < 0 alors
+		Afficher "Il fait froid"
+	sinon si température < 15 alors
+		Afficher "Il fait frais"
+	sinon si température < 30 alors 
+		Afficher "Il fait chaud"
+	sinon
+		Afficher "Il fait trop chaud"
+	fsi
+Fin

@@ -1,3 +1,5 @@
+*** Variante avec tant que
+
 Variables
 	combinaison : entier
 	proposition : entier
@@ -9,6 +11,24 @@ Début
 		Afficher BP et MP
 		Saisir proposition
 	Ftant
+
+	Afficher "GAGNE"	
+Fin
+
+
+*** Variante avec faire... tant que
+
+
+Variables
+	combinaison : entier
+	proposition : entier
+
+Début
+	combinaison <- 5 entiers aléatoires
+	Faire 
+		Saisir proposition
+		Afficher BP et MP	
+	Tant que proposition <> combinaison 
 
 	Afficher "GAGNE"	
 Fin

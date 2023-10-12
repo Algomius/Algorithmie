@@ -1,0 +1,15 @@
+Variables :
+	joueurs : entier
+Début
+	Afficher "Combien de joueurs ? "
+	Saisir joueurs
+	
+	Selon que joueurs
+		Soit 5 : Afficher "On joue au Basket"
+		Soit 7 : Afficher "On joue au Handball"
+		Soit 11 : Afficher "On joue au Football"
+		Soit 15 : Afficher "On joue au Rugby"
+		Sinon : Afficher "On joue au Dodgeball"
+	FSelon
+
+Fin
