@@ -1,0 +1,23 @@
+Variable
+	largeur : entier
+	l : entier
+	hauteur : entier
+	h : entier
+Début
+	Afficher "Donner la largeur "
+	Saisir largeur
+
+	Afficher "Donner la hauteur "
+	Saisir hauteur
+
+	h <- 0
+	Tant que h < hauteur
+		l <- 0
+		Tant que l < largeur Faire
+			Afficher '*'
+			l <- l + 1
+		Ftant
+		Afficher <retour à la ligne>
+		h <- h + 1
+	Ftant
+Fin

@@ -1,0 +1,19 @@
+Déclaration
+	n_mystere : entier
+	n_joueur : entier
+	nb_coups : entier
+Début
+	n_mystere <- 10
+	Saisir n_joueur
+	nb_coups <- 1
+	Tant que n_mystere <> n_joueur Faire
+		Si n_mystere < n_joueur alors
+			Ecrire “C’est moins”
+		Sinon
+			Ecrire  “C’est plus”
+		Fsi
+		Saisir n_joueur
+		nb_coups <- nb_coups + 1
+	Ftant 
+	Ecrire “C’est gagné en ” + nb_coups + " coups"
+Fin

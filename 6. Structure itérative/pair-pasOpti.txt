@@ -1,0 +1,9 @@
+Déclaration
+
+Début
+	Pour i de 1 à 100 Faire
+		Si i % 2 = 0 Alors
+			Afficher i
+		Fsi
+	Fpour 
+Fin

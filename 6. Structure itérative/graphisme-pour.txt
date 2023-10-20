@@ -1,0 +1,13 @@
+Déclaration
+	hauteur : entier
+	largeur : entier
+Début
+	Saisir hauteur
+	Saisir largeur
+	Pour h de 1 à hauteur Faire
+		Pour l de 1 à largeur Faire
+			Afficher "*"
+		Fpour
+		Afficher "<retour à la ligne>"
+	Fpour 
+Fin

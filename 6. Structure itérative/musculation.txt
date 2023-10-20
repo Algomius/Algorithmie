@@ -1,0 +1,14 @@
+Déclaration
+	e_pompe : eniter
+	e_personne : entier
+	compteur : entier
+Début
+	e_pompe <- 10
+	Saisir e_personne
+	compteur <- 0
+	Tant que e_personne >= e_pompe Faire
+		e_personne <- e_personne – e_pompe
+		compteur <- compteur + 1
+	Ftant 
+	Afficher compteur
+Fin

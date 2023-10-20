@@ -1,0 +1,17 @@
+Déclaration
+	hauteur : entier
+	largeur : entier
+Début
+	Saisir hauteur
+	Saisir largeur
+	Pour h de 1 à hauteur Faire
+		Pour l de 1 à largeur Faire
+			Si h = 1 ou h = hauteur ou l = 1 ou l = hauteur Alors
+				Afficher "*"
+			Sinon 
+				Afficher " "
+			Fsi
+		Fpour
+		Afficher "<retour à la ligne>"
+	Fpour 
+Fin
