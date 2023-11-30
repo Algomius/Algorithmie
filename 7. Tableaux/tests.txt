@@ -1,0 +1,13 @@
+Déclaration
+	Entier : tabTempérature[] = [1, -2, 0, 4, -2, 10, 25, 26, 30, -2]
+	Entier : cptNegatif <-- 0, cptPlus25 <-- 0
+Début
+	Pour indice de 0 à taille(tabTempérature) – 1
+		Si tabTempérature[indice] < 0 alors
+			 cptNegatif <-- cptNegatif + 1
+		Sinon Si tabTempérature[indice] > 25 alors
+			 cptPlus25 <-- cptPlus25 + 1
+		Fsi
+	Fpour
+	Afficher "Négatif : " + cptNegatif + " - plus de 25 : " + cptPlus25 
+Fin

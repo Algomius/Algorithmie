@@ -1,0 +1,18 @@
+Déclaration
+	Chaines de caractères : nomPrenom
+	Chaines de caractères : nom, prenom
+	Entier : age
+	Chaines de caractères : anneeNaissance
+Début
+	nomPrenom <- Lire
+	nom <- prendre tous les caractères avant le premier espace de s
+	prenom <- prendre tous les caractères après le premier espace de s
+
+	retour <-- prenom + " " + nom
+
+	age <- Lire
+	anneeNaissance <- 2020 - age
+
+	retour <-- anneeNaissance 	
+Fin
+

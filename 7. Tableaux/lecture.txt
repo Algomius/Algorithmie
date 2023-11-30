@@ -1,0 +1,8 @@
+Variables :
+	Constante Entier TAILLE_TABLEAU = 31
+	Entier : tabTempérature[TAILLE_TABLEAU ] 
+Début
+	Pour indice de 0 à TAILLE_TABLEAU – 1
+		Saisir tabTempérature[indice]
+	Fpour
+Fin

@@ -1,0 +1,31 @@
+Variables
+	caractère : tabDirectection[] = ['N', 'N', 'E', 'E', 'E', 'N', 'O', 'O', 'N', 'E', 'S', 'S']
+	entier : dirNordSud <-- 0
+	entier : dirEstOuest <-- 0
+Début
+
+	pour i de 0 à taille(tabDirection) - 1
+		Si tabDirectection[i] = 'N' alors
+			dirNordSud  <-- dirNordSud + 1
+		Sinon Si tabDirectection[i] = 'S' alors
+			dirNordSud  <-- dirNordSud - 1
+		Sinon Si tabDirectection[i] = 'E' alors
+			dirEstOuest <-- dirEstOuest + 1
+		Sinon
+			dirEstOuest <-- dirEstOuest - 1
+		Fsi
+	fpour
+
+	Si dirNordSud < 0 alors
+		Afficher -dirNordSud + " Sud"
+	sinon
+		Afficher dirNordSud + " Nord"
+	fsi
+
+	Si dirEstOuest < 0 alors
+		Afficher -dirEstOuest + " Est"
+	sinon
+		Afficher dirEstOuest + " Ouest"
+	fsi
+Fin
+

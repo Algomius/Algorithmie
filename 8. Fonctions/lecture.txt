@@ -1,0 +1,11 @@
+fonction lecture() : entier
+
+	s : Chaine de caractère
+
+Début
+	Saisir s 
+	Tant que s ne contient pas une valeur numérique positive
+		Saisir s
+	Ftant
+	retour <-- Entier(s)
+Fin

@@ -1,0 +1,10 @@
+Variables
+	Entier : tabTempérature[] = [15, 14, 16, 14, 15, 17]
+	Entier : sommeTempérature
+Début
+	sommeTempérature <-- 0
+	Pour indice de 0 à taille(tabTempérature) – 1
+		 sommeTempérature <--  sommeTempérature + tabTempérature[indice] 
+	Fpour
+	Afficher "Moyenne : " + sommeTempérature / taille(tabTempérature) 
+Fin
